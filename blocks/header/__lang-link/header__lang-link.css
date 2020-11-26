@@ -1,0 +1,8 @@
+.header__lang-link {
+    justify-self: end;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+    color: white;
+}
