@@ -1,12 +1,9 @@
 .photo-grid {
+    width: 93%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 284px);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
     justify-content: center;
 }
 
-.photo-grid__item {
-    height: 213px;
-    width: 284px;
-}
