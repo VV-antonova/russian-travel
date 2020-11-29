@@ -7,12 +7,23 @@
     line-height: 29px;
 }
 
-.place__paragraph:first-child {
-    margin-bottom: 27px;
+.place__paragraph:last-child {
+    margin-top: 27px;
 }
 
-/*.place__paragraphs {
-    margin: 0;
-    padding: 0;
-    align-self: flex-start;
-}*/
+@media screen and (max-width:799px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .place__paragraph:last-child {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .place__paragraph {
+        max-width: 288px;
+    }
+}

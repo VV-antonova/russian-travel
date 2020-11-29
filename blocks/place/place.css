@@ -14,3 +14,18 @@
         width: 90vw;
     }
 }
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .place {
+        width: 94vw;
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .place {
+        width: 100vw;
+        margin-bottom: 49px;
+        flex-direction: column;
+    }     
+}

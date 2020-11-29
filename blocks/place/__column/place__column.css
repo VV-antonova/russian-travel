@@ -7,3 +7,22 @@
 .place__column:first-child {
     margin-left: 0;
 }
+
+@media screen and (min-width:800px) and (max-width:1030px) {
+    .place__column {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:799px) {
+    .place__column {
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .place__column {
+        width: 320px;
+        margin-left: 0;
+    }
+}
