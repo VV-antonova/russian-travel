@@ -29,3 +29,9 @@
     opacity: 0.8;
     transition: opacity 0.2s linear;
 }
+
+@media screen and (min-width:769px) and (max-width:1030px) {
+    .cover {
+        width: 100%
+    }
+}
