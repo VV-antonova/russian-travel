@@ -1,10 +1,8 @@
 .place {
+    width: 77vw;
     margin-bottom: 80px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 484px));
-    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-    align-items: end;
-    gap: 40px;
+    display: flex;
+    justify-content: start;
 }
 
 .place:last-child {

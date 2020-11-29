@@ -1,0 +1,9 @@
+.place__column {
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.place__column:first-child {
+    margin-left: 0;
+}
