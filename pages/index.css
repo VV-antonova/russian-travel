@@ -1,6 +1,9 @@
 /*Подключение сторонних стилей*/
 @import url(../vendor/normalize.css);
 
+/*Подключение шрифта*/
+@import url(../vendor/fonts.css);
+
 /*Подключение общих стилей для всей страницы*/
 @import url(../blocks/page/page.css);
 
