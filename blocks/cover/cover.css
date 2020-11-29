@@ -32,6 +32,6 @@
 
 @media screen and (min-width:320px) and (max-width:1030px) {
     .cover {
-        width: 100%
+        width: 100%;
     }
 }
