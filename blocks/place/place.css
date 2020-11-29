@@ -15,14 +15,14 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:768px) {
+@media screen and (min-width:641px) and (max-width:768px) {
     .place {
         width: 94vw;
         margin-bottom: 73px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:640px) {
     .place {
         width: 100vw;
         margin-bottom: 49px;

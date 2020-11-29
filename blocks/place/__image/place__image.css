@@ -8,13 +8,13 @@
     }
 }
 
-@media screen and (min-width:426px) and (max-width:849px) {
+@media screen and (min-width:551px) and (max-width:849px) {
     .place__image {
         max-width: 340px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:550px) {
     .place__image {
         width: 100%;
     }
