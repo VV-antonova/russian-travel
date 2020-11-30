@@ -9,13 +9,14 @@
 
 @media screen and (max-width:1030px) {
     .header {
-        padding: 28px 48px 45px 48px;
+        padding: 28px 48px 42px 48px;
     }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
     .header{ 
-        padding: 28px 24px 48px 24px;
+        max-width: 94%;
+        padding: 28px 24px 45px 24px;
     }
 }
 
