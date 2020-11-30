@@ -9,7 +9,9 @@
     text-decoration: none;
     color: white;
     text-align: center;
+   
     position: relative;
+    
 }
 
 @media screen and (max-width:600px) {
