@@ -1,7 +1,12 @@
 .place {
     width: 77vw;
     margin-bottom: 80px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(152px, 1fr));
+    grid-template-areas: 
+    "title website"
+    "image paragraphs";
     justify-content: start;
 }
 
@@ -19,6 +24,7 @@
     .place {
         width: 94vw;
         margin-bottom: 73px;
+        grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
     }
 }
 
@@ -26,6 +32,10 @@
     .place {
         width: 100vw;
         margin-bottom: 49px;
-        flex-direction: column;
+        grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));
+        grid-template-areas: 
+        "title"
+        "image" 
+        "paragraphs";
     }     
 }
