@@ -28,3 +28,9 @@
 .cover__link:hover::before {
     opacity: 0.8;
 }
+
+@media screen and (max-width:1030px) {
+    .cover__link {
+        height: 60vw;
+    }
+}
