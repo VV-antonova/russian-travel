@@ -3,20 +3,21 @@
     grid-area: image;
 }
 
-@media screen and (min-width:850px) and (max-width:1030px) {
+@media screen and (min-width:1000px) and (max-width:1279px) {
     .place__image {
         max-width: 440px;
     }
 }
 
-@media screen and (min-width:551px) and (max-width:849px) {
+@media screen and (min-width:768px) and (max-width:999px) {
     .place__image {
         max-width: 340px;
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 767px) {
     .place__image {
         width: 100%;
+        margin: auto;
     }
 }

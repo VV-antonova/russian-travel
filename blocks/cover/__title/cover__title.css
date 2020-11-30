@@ -20,3 +20,9 @@
         font-size: 32px;     
     }
 }
+
+@media screen and (max-width:425px) {
+    .cover__title {
+        max-width: 250px;  
+    }
+}
