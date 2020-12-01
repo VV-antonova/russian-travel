@@ -5,21 +5,21 @@
     align-items: center;
 }
 
-@media screen and (min-width:426px) and (max-width:1279px) {
+@media screen and (max-width:1279px) {
     .places { 
-        padding: 100px 0;
+        padding: 93px 0;
     }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
     .places { 
-        width: 100%;
-        padding: 105px 0 98px 0;
+        padding: 90px 0 88px 0;
     }
 }
 
 @media screen and (max-width:425px) {
     .places { 
+        width: 100%;
         padding: 67px 0;
     }
 }

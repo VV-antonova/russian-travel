@@ -2,8 +2,20 @@
     grid-area: paragraphs;
 }
 
-@media screen and (max-width:767px) {
-    .place__paragraphs {
-        margin: 32px 16px 0 16px;
+@media screen and (min-width:771px) and (max-width:1279px) {
+    .place__paragraphs { 
+        margin-top: 7px;
     }
 }
+
+@media screen and (max-width:770px) {
+    .place__paragraphs { 
+        margin-top: 0;
+    }
+}
+
+/*@media screen and (max-width:767px) {
+    .place__paragraphs {
+        margin: 0 16px 25px 16px;
+    }
+}*/

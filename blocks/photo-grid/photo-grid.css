@@ -8,6 +8,20 @@
     justify-content: center;
 }
 
+@media screen and (max-width:1030px) {
+    .photo-grid {
+        max-width: 91%;
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .photo-grid {
+        max-width: 94%;
+        gap: 16px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .photo-grid {
         max-width: 90%;
