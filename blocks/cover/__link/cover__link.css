@@ -1,5 +1,5 @@
 .cover__link {
-    height: 58vw;
+    min-height: 740px;
     text-decoration: none;
     color: white;
     background-image: url("../../../images/cover-trains.jpg");
@@ -31,6 +31,24 @@
 
 @media screen and (max-width:1030px) {
     .cover__link {
-        height: 60vw;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cover__link {
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .cover__link {
+        min-height: 200px;
     }
 }

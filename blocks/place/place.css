@@ -1,13 +1,16 @@
 .place {
-    width: 77vw;
+    width: 77%;
     margin-bottom: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+    /*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));*/
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    column-gap: 40px;
+    row-gap: 48px;
+    /*grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));*/
     grid-template-areas: 
     "title website"
     "image paragraphs";
-    justify-content: start;
+    /*justify-content: start;*/
 }
 
 .place:last-child {
@@ -16,23 +19,23 @@
 
 @media screen and (min-width:769px) and (max-width:1279px) {
     .place {
-        width: 90vw;
+        width: 90%;
     }
 }
 
 @media screen and (width:768px) {
     .place {
-        width: 94vw;
+        width: 94%;
         margin-bottom: 73px;
-        grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
+        /*grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));*/
     }
 }
 
 @media screen and (max-width:767px) {
     .place {
-        width: 100vw;
+        width: 100%;
         margin-bottom: 63px;
-        grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));
+        /*grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));*/
         grid-template-areas: 
         "title"
         "image" 
