@@ -1,5 +1,7 @@
+/* На разрешении 320 в первом блоке в некторых местах текст переносится не как в макете, что дает погрешность других блоков. 
+Думаю, что это невозможно сделать кроме как с br*/
+
 .place {
-    /*width: 77%;*/
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
@@ -17,14 +19,12 @@
 
 @media screen and (min-width:971px) and (max-width:1279px) {
     .place {
-        /*width: 90%;*/
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width:970px) {
     .place {
-        /*width: 94%;*/
         margin-bottom: 73px;
         column-gap: 28px;
     }
